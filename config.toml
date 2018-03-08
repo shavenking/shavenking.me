@@ -1,0 +1,19 @@
+baseURL = "https://shavenking.me/"
+languageCode = "zh-tw"
+author = "SHAVENKING"
+title = "SHAVENKING"
+theme = "black-and-light"
+googleAnalytics = "UA-115402930-1"
+
+canonifyurls = true
+
+pygmentsstyle       = "bw"
+pygmentscodefences  = true
+
+[params]
+  sitename = "SHAVENKING"
+
+[[menu.main]]
+    name = "Resume"
+    url  = "resume"
+
