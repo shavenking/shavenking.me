@@ -1,7 +1,6 @@
 ---
 title: "Git Internals Introduction"
 date: 2018-03-09T10:25:29+08:00
-draft: true
 isCJKLanguage: true
 ---
 
