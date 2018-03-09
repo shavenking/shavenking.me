@@ -10,4 +10,4 @@ googleAnalytics = "UA-115402930-1"
 
 [[menu.main]]
     name = "Resume"
-    url  = "resume"
+    url  = "/resume"
