@@ -1,5 +1,6 @@
 ---
 title: "Resume"
+isCJKLanguage: true
 date: 2018-03-08T15:07:19+08:00
 ---
 
