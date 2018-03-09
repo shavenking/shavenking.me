@@ -4,7 +4,7 @@ go:
   - master
 
 before_script:
-  - go get -u -v github.com/spf13/hugo
+  - go install github.com/spf13/hugo
   - npm install -g firebase-tools
 
 script:
