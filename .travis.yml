@@ -1,0 +1,15 @@
+language: go
+
+go:
+  - master
+
+before_script:
+  - go get -u -v github.com/spf13/hugo
+  - npm install -g firebase-tools
+
+script:
+  - git submodule update --init
+  - hugo
+
+after_success:
+  - firebase deploy --token=${FIREBASE_API_TOKEN}
