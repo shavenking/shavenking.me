@@ -9,5 +9,9 @@ googleAnalytics = "UA-115402930-1"
   sitename = "SHAVENKING"
 
 [[menu.main]]
-    name = "Resume"
+    name = "HOME"
+    url  = "/"
+
+[[menu.main]]
+    name = "RESUME"
     url  = "/resume"
