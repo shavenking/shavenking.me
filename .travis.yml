@@ -8,6 +8,7 @@ before_script:
   - wget https://github.com/gohugoio/hugo/releases/download/v0.37.1/hugo_0.37.1_Linux-64bit.tar.gz -O /tmp/hugo.tar.gz
   - tar -zxvf /tmp/hugo.tar.gz
   - npm install -g firebase-tools
+  - export PATH=$PATH:$PWD/
 
 script:
   - git submodule update --init
