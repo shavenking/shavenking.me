@@ -27,6 +27,7 @@ date: 2018-03-08T15:07:19+08:00
 
 - 系統分析諮詢
 - 網頁前後端
+- 原生 APP 開發
 - 資料庫設計
 - 伺服器營運
 - 跨領域合作（[營建管理](https://github.com/shavenking/project-boomer)）
