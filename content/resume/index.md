@@ -16,7 +16,9 @@ date: 2018-03-08T15:07:19+08:00
 
 ## 近期成就
 
-- [2018 iT 邦幫忙鐵人賽 - 團體組 20 人完賽](https://ithelp.ithome.com.tw/ironman/signup/team/17)
+- 金流平臺系統規劃、實做
+- 開採平臺系統規劃、實做
+- 活動報名系統規劃、實做
 - [2018 iT 邦幫忙鐵人賽 - 個人 Software Development 組優勝](https://ithelp.ithome.com.tw/users/20107332/ironman/1475)
 
 ## 經歷
