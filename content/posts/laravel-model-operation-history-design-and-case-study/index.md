@@ -37,7 +37,6 @@ date: 2018-05-27T23:27:22+08:00
     });
 
 - 其中 `$table→morphs` 即為 Laravel 提供的 Polymorphic Relations 對應的欄位，其原理就是透過建立 type、id 來儲存這筆記錄對應的 Model。
-
 - `operator_id`、`user_id`：即為 Model 兩邊使用者的對應關係，比如說，A 購買了遊戲寵物並贈送給 B，此時 `operator_id` 為 A（A 啟動了這個動作），`user_id` 為 B（B 為這個動作的附加使用者）。
 - `type`：則是記錄這個動作的「種類」，可能為「新增」、「修改」、「激活」、「交易」等等，視業務需求而定。
 - `result_data`：代表的是動作「結束後」，Model 最終的資料，因為 Laravel Model 能夠直接 JSON 化，所以此欄位設計成 JSON 欄位，如果需要可以被搜尋，則需要做進一步調整，但不在此篇範圍內。
